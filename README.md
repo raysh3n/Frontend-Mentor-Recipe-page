@@ -55,6 +55,26 @@ Desktop
     color: var(--clr-rose800);
     font-size: 1.5rem;
 }
+
+
+.preparation__list {
+  list-style: none; /*this is done at the ul tag, not li*/
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+```
+
+ways to make thinner divider. set border to none first, then add thin line border-top.
+```html
+<hr class="divider"> 
+```
+```css
+.divider {
+	border: none;
+	border-top: 1px solid var(--clr-stone150);
+}
 ```
 
 

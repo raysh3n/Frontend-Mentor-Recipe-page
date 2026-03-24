@@ -53,7 +53,7 @@ svg {
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 700px;
+	/*max-width: 700px;*/ /*redundant as wrapper already have this property*/
 }
 
 .container--spacing {
@@ -74,7 +74,7 @@ svg {
 /*BANNER SECTION*/
 .banner__picture {
 	/* outline:1px solid blue; */
-	margin-inline: auto;
+	margin-inline: auto; /*this does seem to do anything*/
 }
 
 /*  INTRO SECTION */
